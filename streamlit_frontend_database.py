@@ -90,7 +90,7 @@ if user_input:
         "run_name": "chat_turn",
     }
 
-    # first add the message to message_history
+    # first add the message to message_histor
     with st.chat_message('assistant'):
 
         ai_message = st.write_stream(
